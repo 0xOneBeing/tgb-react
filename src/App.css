@@ -1,0 +1,51 @@
+:root {
+  /* Color Definitiion */
+  --color-blue: #0138b7;
+  --color-cyan: #61dafb;
+  --color-darkgrey: #282c34;
+  --color-link: #fbf6e0;
+
+  /* Fonts Family Definition */
+  --recoleta: "Recoleta", sans-serif;
+}
+
+body {
+  background-color: cyan !important;
+}
+
+a.navbar-brand {
+  text-align: center !important;
+}
+
+.navbar {
+  background-color: #00000054;
+}
+
+.nav-link {
+  color: var(--color-link) !important;
+  border-bottom: 3px solid transparent !important;
+}
+
+.navbar-nav .active {
+  border-bottom: 3px solid var(--color-link) !important;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+}
+
+/* Desktop Responsive Styles */
+@media (min-width: 768px) {
+  .navbar {
+    padding: 0 !important;
+  }
+  .nav-link {
+    padding: 40px 30px !important;
+  }
+  .nav-link:hover {
+    border-bottom: 3px solid var(--color-link) !important;
+  }
+  .navbar-expand-lg .navbar-nav .nav-brand {
+    padding: 0 100px 0 !important;
+  }
+}
