@@ -48,7 +48,8 @@ export default function Header() {
           </div>
         </div>
       </nav>
-      {/* <nav class="navbar fixed-bottom">
+      {/* Offcanvas navbar */}
+      {/* <nav class="navbar">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             Offcanvas navbar
@@ -139,6 +140,7 @@ export default function Header() {
           </div>
         </div>
       </nav> */}
+      {/* Offcanvas navbar */}
     </header>
   );
 }

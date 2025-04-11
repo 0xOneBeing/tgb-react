@@ -1,18 +1,17 @@
+/* Config Styles */
 :root {
   /* Color Definitiion */
   --color-blue: #0138b7;
   --color-cyan: #61dafb;
   --color-darkgrey: #282c34;
   --color-link: #fbf6e0;
+  --color-orange: #ff7000;
 
   /* Fonts Family Definition */
   --recoleta: "Recoleta", sans-serif;
 }
 
-body {
-  background-color: cyan !important;
-}
-
+/* Global Styles */
 a.navbar-brand {
   text-align: center !important;
 }
@@ -30,8 +29,54 @@ a.navbar-brand {
   border-bottom: 3px solid var(--color-link) !important;
 }
 
+/* Main Styles */
+.carousel-item img {
+  /* height: 80%; */
+  /* width: 100%; */
+  /* object-fit: contain; */
+}
+/* Main Styles */
+
+/* Footer Styles */
+footer {
+  background-color: var(--color-blue);
+  color: #ffffff !important;
+}
+footer a {
+  color: var(--color-link) !important;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-links li {
+  padding: 0 30px;
+}
+
+.footer-links li a {
+  text-decoration: none;
+}
+
+.footer-links li a:hover {
+  text-decoration: underline;
+}
+
 /* Mobile Responsive Styles */
 @media (max-width: 768px) {
+  .footer-links {
+    display: initial;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .footer-links li {
+    padding: 10px 0;
+    text-align: center;
+  }
 }
 
 /* Desktop Responsive Styles */
